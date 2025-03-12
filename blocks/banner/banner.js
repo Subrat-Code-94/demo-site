@@ -25,16 +25,9 @@ export default async function decorate(block) {
   
     // Fetch geolocation data based on IP address
     try {
-      const geoResponse = await fetch("https://ipapi.co/json/");
-      if (!geoResponse.ok) {
-        throw new Error("Failed to fetch geolocation data");
-      }
-      const geoData = await geoResponse.json();
-      const { latitude, longitude } = geoData;
-  
       // Fetch weather data
       const weatherResponse = await fetch(
-        `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=1e917fcbb504f03e53e905f6060107ac&units=metric`
+        `https://api.openweathermap.org/data/2.5/weather?lat=12.9762&lon=77.6033&appid=1e917fcbb504f03e53e905f6060107ac&units=metric`
       );
       if (!weatherResponse.ok) {
         throw new Error("Network response was not ok");
