@@ -63,9 +63,13 @@
         font-size: var(--body-font-size-s);
     }
 
+    .banner-text-content{
+        margin-top: 94px;
+    }
+
     .weather-info {
         top: 10px;
-        right: 20px;
+        right: 85px;
         font-size: var(--body-font-size-s);
     }
 }
