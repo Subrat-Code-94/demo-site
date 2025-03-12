@@ -1,0 +1,71 @@
+.banner {
+    position: relative;
+    background: no-repeat center center;
+    background-size: cover;
+    padding: 80px 30px; /* Increased padding */
+    color: var(--background-color);
+}
+
+.banner-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Change alignment to flex-start for left alignment */
+    text-align: left; /* Change text alignment to left */
+}
+
+.banner-text-content {
+    max-width: 100%;
+    color: var(--text-color);
+}
+
+.banner h3 {
+    font-size: var(--heading-font-size-s);
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.banner h1 {
+    font-size: var(--heading-font-size-xxl);
+    margin-bottom: 20px;
+}
+
+.banner p {
+    font-size: var(--body-font-size-m);
+    line-height: 1.6;
+}
+
+.weather-info {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    background: rgba(
+        0,
+        0,
+        0,
+        0.15
+    ); /* Add a semi-transparent background for better readability */
+    padding: 10px;
+    border-radius: 5px;
+    font-size: var(--body-font-size-m);
+    color: var(--background-color);
+}
+
+@media (max-width: 768px) {
+    .banner {
+        padding: 60px 20px; /* Increased padding for mobile as well */
+    }
+
+    .banner h1 {
+        font-size: var(--heading-font-size-xl);
+    }
+
+    .banner p {
+        font-size: var(--body-font-size-s);
+    }
+
+    .weather-info {
+        top: 10px;
+        right: 20px;
+        font-size: var(--body-font-size-s);
+    }
+}
