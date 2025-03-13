@@ -32,7 +32,7 @@ function formatPublicationDate(dateString) {
               (item) => `
             <li class="rss-feed-item">
               <div class="rss-feed-image">
-                <img src="${item["image_url"] || "https://assets-varnish.triblive.com/2025/03/8294570_web1_8294570-138d3b39cb3644d08d5b1621cb1bf537.jpg"}" alt="${item["title"]}">
+                <img src="${item["image_url"] || "https://assets-varnish.triblive.com/2025/03/8294570_web1_8294570-138d3b39cb3644d08d5b1621cb1bf537.jpg"}" alt="${item["title"]}" onerror="this.onerror=null;this.src='https://assets-varnish.triblive.com/2025/03/8294570_web1_8294570-138d3b39cb3644d08d5b1621cb1bf537.jpg';">
               </div>
               <div class="rss-feed-content">
                 <h3><a href="${item["link"]}">${item["title"]}</a></h3>
