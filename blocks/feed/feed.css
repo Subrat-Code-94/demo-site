@@ -1,0 +1,54 @@
+.feed {
+  margin: 40px auto;
+  max-width: 1200px;
+  padding: 0 16px; /* Adjusted padding for alignment */
+}
+
+.feed h2 {
+  font-size: var(--font-size-h3);
+  color: var(--text-color);
+  margin-bottom: 16px;
+  font-family: var(--heading-font-family);
+}
+
+.feed-card {
+  display: inline-block;
+  width: 23%; /* Adjust width to fit four cards */
+  margin: 0 0.5%; /* Adjust margin for better fit */
+  vertical-align: top;
+}
+
+.feed-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.feed-card h3 {
+  font-size: var(--font-size-h4);
+  font-family: var(--heading-font-family);
+  margin: 16px 0 8px;
+  color: var(--black);
+}
+
+.feed-card h3 a {
+  color: black; /* Ensuring title link color is black */
+}
+
+.feed-card p {
+  font-size: var(--font-size-base);
+  color: var(--gray);
+}
+
+@media (max-width: 600px) {
+  .feed-card {
+    width: 100%;
+    margin-bottom: 16px;
+  }
+}
+
+@media (min-width: 900px) {
+  .feed {
+    padding: 0 24px; /* Slightly increased padding for larger screens */
+  }
+}
