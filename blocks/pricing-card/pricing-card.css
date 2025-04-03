@@ -1,0 +1,58 @@
+.pricing-card-wrapper {
+  background: #f5f7fa;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: 'Arial', sans-serif;
+  max-width: 300px;
+  padding: 20px;
+  text-align: center;
+  background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+}
+
+.price {
+  font-size: 36px;
+  font-weight: bold;
+  color: #333;
+  margin: 0;
+}
+
+.per-month {
+  font-size: 16px;
+  color: #888;
+}
+
+.description {
+  font-size: 14px;
+  color: #777;
+  margin: 15px 0;
+}
+
+.features {
+  list-style: none;
+  padding: 0;
+  font-size: 14px;
+  text-align: left;
+}
+
+.features li {
+  margin: 5px 0;
+}
+
+.features strong {
+  color: #333;
+}
+
+.buy-now {
+  background-color: #28a745;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px 20px;
+  width: 100%;
+}
+
+.buy-now:hover {
+  opacity: 0.9;
+}

@@ -1,0 +1,41 @@
+.well-being-wrapper {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  visibility: hidden; /* Initially hidden to trigger animation */
+}
+
+.image-content, .text-content {
+  flex: 1 1 50%;
+}
+
+.image-content picture, .image-content img {
+  width: 100%;
+  height: auto;
+}
+
+.text-content {
+  max-width: 600px;
+}
+
+.text-content h2 {
+  font-size: 24px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.text-content p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #666;
+}
+
+.animate__animated {
+  visibility: hidden;
+}
+
+.animate__animated.animate__fadeIn,
+.animate__animated.animate__fadeInLeft,
+.animate__animated.animate__fadeInRight {
+  visibility: visible;
+}

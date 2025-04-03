@@ -1,0 +1,229 @@
+@font-face {
+    font-family: "Graphik";
+    src: url("https://cdn.shopify.com/s/files/1/0597/5136/6703/files/Graphik-Medium.eot");
+    src: url("https://cdn.shopify.com/s/files/1/0597/5136/6703/files/Graphik-Medium.eot?#iefix")
+            format("embedded-opentype"),
+        url("https://cdn.shopify.com/s/files/1/0597/5136/6703/files/Graphik-Medium.woff2")
+            format("woff2"),
+        url("https://cdn.shopify.com/s/files/1/0597/5136/6703/files/Graphik-Medium.woff")
+            format("woff");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Graphik";
+    src: url("https://cdn.shopify.com/s/files/1/0597/5136/6703/files/Graphik-Semibold.eot");
+    src: url("https://cdn.shopify.com/s/files/1/0597/5136/6703/files/Graphik-Semibold.eot?#iefix")
+            format("embedded-opentype"),
+        url("https://cdn.shopify.com/s/files/1/0597/5136/6703/files/Graphik-Semibold.woff2")
+            format("woff2"),
+        url("https://cdn.shopify.com/s/files/1/0597/5136/6703/files/Graphik-Semibold.woff")
+            format("woff");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "AspreyAlphabet";
+    src: url("https://cdn.shopify.com/s/files/1/0597/5136/6703/files/Asprey-Alphabet.eot");
+    src: url("https://cdn.shopify.com/s/files/1/0597/5136/6703/files/Asprey-Alphabet.eot?#iefix")
+            format("embedded-opentype"),
+        url("https://cdn.shopify.com/s/files/1/0597/5136/6703/files/Asprey-Alphabet.woff2")
+            format("woff2"),
+        url("https://cdn.shopify.com/s/files/1/0597/5136/6703/files/Asprey-Alphabet.woff")
+            format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "BlairITC TT";
+    src: url("https://cdn.shopify.com/s/files/1/0597/5136/6703/files/BlairITCTTLight.eot");
+    src: url("https://cdn.shopify.com/s/files/1/0597/5136/6703/files/BlairITCTTLight.eot?#iefix")
+            format("embedded-opentype"),
+        url("https://cdn.shopify.com/s/files/1/0597/5136/6703/files/BlairITCTTLight.woff2")
+            format("woff2"),
+        url("https://cdn.shopify.com/s/files/1/0597/5136/6703/files/BlairITCTTLight.woff")
+            format("woff");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Gill Sans";
+    src: url("https://cdn.shopify.com/s/files/1/0597/5136/6703/files/GillSans-Light.eot");
+    src: url("https://cdn.shopify.com/s/files/1/0597/5136/6703/files/GillSans-Light.eot?#iefix")
+            format("embedded-opentype"),
+        url("https://cdn.shopify.com/s/files/1/0597/5136/6703/files/GillSans-Light.woff2")
+            format("woff2"),
+        url("https://cdn.shopify.com/s/files/1/0597/5136/6703/files/GillSans-Light.woff")
+            format("woff");
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Gill Sans";
+    src: url("https://cdn.shopify.com/s/files/1/0597/5136/6703/files/GillSans-Light.eot");
+    src: url("https://cdn.shopify.com/s/files/1/0597/5136/6703/files/GillSans-Light.eot?#iefix")
+            format("embedded-opentype"),
+        url("https://cdn.shopify.com/s/files/1/0597/5136/6703/files/GillSans-Light.woff2")
+            format("woff2"),
+        url("https://cdn.shopify.com/s/files/1/0597/5136/6703/files/GillSans-Light.woff")
+            format("woff");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Gill Sans";
+    src: url("https://cdn.shopify.com/s/files/1/0597/5136/6703/files/GillSans-SemiBold.woff2")
+            format("woff2"),
+        url("https://cdn.shopify.com/s/files/1/0597/5136/6703/files/GillSans-SemiBold.woff")
+            format("woff");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Gill Sans";
+    src: url("https://cdn.shopify.com/s/files/1/0597/5136/6703/files/GillSans-Bold.eot");
+    src: url("https://cdn.shopify.com/s/files/1/0597/5136/6703/files/GillSans-Bold.eot?#iefix")
+            format("embedded-opentype"),
+        url("https://cdn.shopify.com/s/files/1/0597/5136/6703/files/GillSans-Bold.woff2")
+            format("woff2"),
+        url("https://cdn.shopify.com/s/files/1/0597/5136/6703/files/GillSans-Bold.woff")
+            format("woff");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Gill Sans";
+    src: url("https://cdn.shopify.com/s/files/1/0597/5136/6703/files/GillSans-Heavy.eot");
+    src: url("https://cdn.shopify.com/s/files/1/0597/5136/6703/files/GillSans-Heavy.eot?#iefix")
+            format("embedded-opentype"),
+        url("https://cdn.shopify.com/s/files/1/0597/5136/6703/files/GillSans-Heavy.woff2")
+            format("woff2"),
+        url("https://cdn.shopify.com/s/files/1/0597/5136/6703/files/GillSans-Heavy.woff")
+            format("woff");
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Gill Sans";
+    src: url("https://cdn.shopify.com/s/files/1/0597/5136/6703/files/GillSans.eot");
+    src: url("https://cdn.shopify.com/s/files/1/0597/5136/6703/files/GillSans.eot?#iefix")
+            format("embedded-opentype"),
+        url("https://cdn.shopify.com/s/files/1/0597/5136/6703/files/GillSans.woff2")
+            format("woff2"),
+        url("https://cdn.shopify.com/s/files/1/0597/5136/6703/files/GillSans.woff")
+            format("woff"),
+        url("https://cdn.shopify.com/s/files/1/0597/5136/6703/files/GillSans.ttf")
+            format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Gill Sans";
+    src: url("https://cdn.shopify.com/s/files/1/0597/5136/6703/files/GillSans-Medium.eot");
+    src: url("https://cdn.shopify.com/s/files/1/0597/5136/6703/files/GillSans-Medium.eot?#iefix")
+            format("embedded-opentype"),
+        url("https://cdn.shopify.com/s/files/1/0597/5136/6703/files/GillSans-Medium.woff2")
+            format("woff2"),
+        url("https://cdn.shopify.com/s/files/1/0597/5136/6703/files/GillSans-Medium.woff")
+            format("woff"),
+        url("https://cdn.shopify.com/s/files/1/0597/5136/6703/files/GillSans-Medium.ttf")
+            format("truetype");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Graphik";
+    src: url("https://cdn.shopify.com/s/files/1/0597/5136/6703/files/Graphik-Regular.eot");
+    src: url("https://cdn.shopify.com/s/files/1/0597/5136/6703/files/Graphik-Regular.eot?#iefix")
+            format("embedded-opentype"),
+        url("https://cdn.shopify.com/s/files/1/0597/5136/6703/files/Graphik-Regular.woff2")
+            format("woff2"),
+        url("https://cdn.shopify.com/s/files/1/0597/5136/6703/files/Graphik-Regular.woff")
+            format("woff"),
+        url("https://cdn.shopify.com/s/files/1/0597/5136/6703/files/Graphik-Regular.ttf")
+            format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Blair ITC";
+    src: url("https://cdn.shopify.com/s/files/1/0597/5136/6703/files/BlairITC-Medium.eot");
+    src: url("https://cdn.shopify.com/s/files/1/0597/5136/6703/files/BlairITC-Medium.eot?#iefix")
+            format("embedded-opentype"),
+        url("https://cdn.shopify.com/s/files/1/0597/5136/6703/files/BlairITC-Medium.woff2")
+            format("woff2"),
+        url("https://cdn.shopify.com/s/files/1/0597/5136/6703/files/BlairITC-Medium.woff")
+            format("woff"),
+        url("https://cdn.shopify.com/s/files/1/0597/5136/6703/files/BlairITC-Medium.ttf")
+            format("truetype");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Gill Sans MT Pro";
+    src: url("https://cdn.shopify.com/s/files/1/0597/5136/6703/files/GillSansMTPro-Medium.woff2")
+            format("woff2"),
+        url("https://cdn.shopify.com/s/files/1/0597/5136/6703/files/GillSansMTPro-Medium.woff")
+            format("woff");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Gill Sans MT";
+    src: url("https://cdn.shopify.com/s/files/1/0597/5136/6703/files/GillSansMT.woff2")
+            format("woff2"),
+        url("https://cdn.shopify.com/s/files/1/0597/5136/6703/files/GillSansMT.woff")
+            format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Gill Sans MT";
+    src: url("https://cdn.shopify.com/s/files/1/0597/5136/6703/files/GillSansMT-Bold.woff2")
+            format("woff2"),
+        url("https://cdn.shopify.com/s/files/1/0597/5136/6703/files/GillSansMT-Bold.woff")
+            format("woff");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url("https://cdn.shopify.com/s/files/1/0597/5136/6703/files/Inter-Medium.woff2")
+            format("woff2"),
+        url("https://cdn.shopify.com/s/files/1/0597/5136/6703/files/Inter-Medium.woff")
+            format("woff");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Muli";
+    src: url("https://cdn.shopify.com/s/files/1/0597/5136/6703/files/Muli-Regular.woff2")
+            format("woff2"),
+        url("https://cdn.shopify.com/s/files/1/0597/5136/6703/files/Muli-Regular.woff")
+            format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}

@@ -1,0 +1,117 @@
+.asprey-footer {
+    background-color: #301934;
+    color: rgb(var(--color-foreground));
+    padding: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-family: var(--font-body-family);
+}
+
+.asprey-footer__newsletter,
+.asprey-footer__contact,
+.asprey-footer__links {
+    flex: 1 1 100%;
+    margin-bottom: 2rem;
+}
+
+.asprey-footer__newsletter .title,
+.asprey-footer__contact .title,
+.asprey-footer__links .subtitle {
+    font-size: 1.8rem;
+    font-weight: var(--font-heading-weight);
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.asprey-footer__form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.asprey-footer__form input {
+    flex: 1;
+    padding: 1rem;
+    border: 1px solid rgba(var(--color-foreground), 0.2);
+    border-radius: 0.5rem;
+    font-size: 1.4rem;
+}
+
+.asprey-footer__form button {
+    padding: 1rem 2rem;
+    border: none;
+    background-color: rgba(var(--color-button), var(--alpha-button-background));
+    color: rgba(var(--color-button-text), var(--alpha-button-text));
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.asprey-footer__social {
+    margin-top: 1rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.asprey-footer__social-link {
+    color: rgba(var(--color-foreground), 0.75);
+    font-size: 2rem;
+}
+
+.asprey-footer__social-link:hover {
+    color: rgba(var(--color-foreground), 1);
+}
+
+.asprey-footer__links {
+    display: flex;
+    gap: 2rem;
+}
+
+.asprey-footer__links-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.asprey-footer__links-column ul li {
+    margin-bottom: 0.5rem;
+}
+
+.asprey-footer__links-column ul li a {
+    color: rgba(var(--color-foreground), 0.75);
+    text-decoration: none;
+    font-size: 1.4rem;
+}
+
+.asprey-footer__links-column ul li a:hover {
+    text-decoration: underline;
+}
+
+.asprey-footer__copyright {
+    flex: 1 1 100%;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 2rem;
+}
+
+@media (min-width: 750px) {
+    .asprey-footer__newsletter,
+    .asprey-footer__contact {
+        flex: 1 1 30%;
+    }
+    .asprey-footer__links {
+        flex: 1 1 40%;
+    }
+}
+
+@media (max-width: 749px) {
+    .asprey-footer__social {
+        justify-content: center;
+    }
+    .asprey-footer__links {
+        flex-direction: column;
+        align-items: center;
+    }
+    .asprey-footer__links-column {
+        text-align: center;
+    }
+}

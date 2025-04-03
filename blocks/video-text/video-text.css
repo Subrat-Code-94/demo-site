@@ -1,0 +1,47 @@
+.diversity-inclusion-wrapper {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 30px; /* Added top margin */
+}
+
+.text-section {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.text-section h2 {
+  font-size: 24px;
+  font-weight: 400;
+  color: #333;
+}
+
+.text-section hr {
+  width: 50px;
+  border: 2px solid #fbbd08;
+  margin: 10px 0;
+}
+
+.text-section p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #555;
+}
+
+.video-section {
+  flex: 1;
+}
+
+.video-section iframe {
+  width: 100%;
+  height: 315px;
+}
+
+.animate__animated {
+  visibility: hidden;
+}
+
+.animate__animated.animate__fadeIn,
+.animate__animated.animate__fadeInLeft,
+.animate__animated.animate__fadeInRight {
+  visibility: visible;
+}

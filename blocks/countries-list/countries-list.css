@@ -1,0 +1,41 @@
+.countries-list {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.filter-wrapper {
+  margin-bottom: 20px;
+}
+
+.countries-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.countries-table th, .countries-table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.countries-table th {
+  background-color: #f4f4f4;
+}
+
+.pagination-wrapper {
+  text-align: center;
+}
+
+.pagination-btn {
+  padding: 5px 10px;
+  margin: 0 5px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.pagination-btn.active {
+  background-color: #007bff;
+  color: #fff;
+}

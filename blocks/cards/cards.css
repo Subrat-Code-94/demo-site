@@ -13,7 +13,7 @@
 }
 
 .cards .cards-card-body {
-  margin: 16px;
+  margin: 32px; /* Increased margin */
 }
 
 .cards .cards-card-image {
@@ -24,4 +24,37 @@
   width: 100%;
   aspect-ratio: 4 / 3;
   object-fit: cover;
+}
+
+/* New variation for full-image class */
+.full-image .cards > ul > li {
+  position: relative;
+  padding: 0;
+  border: none;
+}
+
+.full-image .cards > ul > li img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+
+.full-image .cards .cards-card-body {
+  position: relative;
+  z-index: 2;
+  color: white;
+  background: rgba(0, 0, 0, 0.4); /* Add a translucent background for better readability */
+  padding: 16px;
+  box-sizing: border-box;
+}
+
+.full-image .cards .cards-card-body h2,
+.full-image .cards .cards-card-body p {
+  margin: 0;
+  padding: 0;
+  color: white;
 }

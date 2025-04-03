@@ -1,0 +1,62 @@
+.leader-data {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  background-color: var(--background-color);
+}
+
+.leader-data .leader-data-card {
+  flex: 1 1 calc(25% - 20px);
+  background-color: var(--light-color);
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.leader-data .leader-data-card img {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid var(--light-color);
+}
+
+.leader-data .leader-data-card .leader-name {
+  font-family: var(--heading-font-family);
+  font-size: var(--heading-font-size-xs);
+  font-weight: bold;
+  padding: 16px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: var(--background-color);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.leader-data .leader-data-card .leader-description {
+  padding: 16px;
+  font-size: var(--body-font-size-m);
+  color: var(--text-color);
+}
+
+.leader-data .leader-data-card .leader-description a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.leader-data .leader-data-card .leader-description a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 900px) {
+  .leader-data .leader-data-card {
+    flex: 1 1 calc(50% - 20px);
+  }
+}
+
+@media (max-width: 600px) {
+  .leader-data .leader-data-card {
+    flex: 1 1 100%;
+  }
+}

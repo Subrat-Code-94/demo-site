@@ -1,0 +1,69 @@
+.get-in-touch-wrapper {
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+    padding: 20px;
+}
+
+.get-in-touch {
+    background-color: #111;
+}
+
+.get-in-touch-image {
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+}
+
+.get-in-touch-text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+
+.get-in-touch-text p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.get-in-touch-button {
+    background-color: #fcbf00;
+    color: #111;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.get-in-touch-button:hover {
+    background-color: #e6a700;
+}
+
+@media (max-width: 768px) {
+    .get-in-touch-wrapper {
+        flex-direction: column;
+    }
+
+    .get-in-touch-image,
+    .get-in-touch-text {
+        width: 100%;
+    }
+
+    .get-in-touch-text {
+        padding: 10px;
+    }
+}
+
+.animate__animated {
+    visibility: hidden;
+}
+
+.animate__animated.animate__fadeIn,
+.animate__animated.animate__fadeInLeft,
+.animate__animated.animate__fadeInRight {
+    visibility: visible;
+}

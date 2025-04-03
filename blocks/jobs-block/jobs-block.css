@@ -1,0 +1,69 @@
+.job-stats-block-wrapper {
+  display: flex;
+}
+
+.stats {
+  background-color: #1a1a1a;
+  color: #ffcc00;
+  width: 50%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.stats .number {
+  font-size: 120px;
+  font-weight: bold;
+}
+
+.stats .label {
+  font-size: 20px;
+}
+
+.description {
+  background-color: #ffcc00;
+  color: #fff;
+  width: 50%;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.description p {
+  margin: 0 0 20px 0;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.find-jobs {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.animate__animated {
+  visibility: hidden;
+}
+
+.animate__animated.animate__fadeIn,
+.animate__animated.animate__fadeInLeft,
+.animate__animated.animate__fadeInRight {
+  visibility: visible;
+}
+
+@media (max-width: 768px) {
+  .job-stats-block-wrapper {
+    flex-direction: column;
+  }
+
+  .stats, .description {
+    width: 100%;
+  }
+}

@@ -1,0 +1,61 @@
+.people-progress-prosperity-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0 20px 0;
+}
+
+.people-progress-prosperity-wrapper .text-content {
+    flex: 1;
+    padding-right: 20px;
+    text-align: left; /* Left-align text content */
+    align-self: flex-start;
+}
+
+.people-progress-prosperity-wrapper .text-content p {
+    color: var(--text-color);
+    font-family: var(--body-font-family);
+    font-size: var(--body-font-size-m);
+}
+
+.people-progress-prosperity-wrapper .text-content h2 {
+    font-family: var(--heading-font-family);
+    font-size: var(--heading-font-size-xl);
+    font-weight: 700;
+    color: var(--text-color);
+    margin-bottom: 20px;
+}
+
+.people-progress-prosperity-wrapper .image-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.people-progress-prosperity-wrapper .image-content picture img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Media Queries for Smaller Devices */
+@media (max-width: 768px) {
+    .people-progress-prosperity-wrapper {
+        flex-direction: column;
+        text-align: left; /* Ensure text remains left-aligned on smaller devices */
+    }
+
+    .people-progress-prosperity-wrapper .text-content {
+        padding-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .people-progress-prosperity-wrapper .image-content {
+        width: 100%;
+    }
+
+    .people-progress-prosperity-wrapper .image-content picture img {
+        width: 100%;
+        height: auto;
+    }
+}

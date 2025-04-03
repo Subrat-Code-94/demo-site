@@ -1,0 +1,33 @@
+.text-text-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  visibility: hidden; /* Initially hidden to trigger animation */
+}
+
+.text-content {
+  max-width: 600px;
+  text-align: center;
+}
+
+.text-content h2 {
+  font-size: 24px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.text-content p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #666;
+}
+
+.animate__animated {
+  visibility: hidden;
+}
+
+.animate__animated.animate__fadeIn,
+.animate__animated.animate__fadeInUp {
+  visibility: visible;
+}
