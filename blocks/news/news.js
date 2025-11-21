@@ -7,8 +7,8 @@ export default async function decorate(block) {
     const newsHTML = `
       <div class="news-grid">
         ${newsItems.map(({
-          image_url: imageUrl, title, link, source_id: sourceId, pubDate,
-        }) => `
+    image_url: imageUrl, title, link, source_id: sourceId, pubDate,
+  }) => `
           <div class="news-card">
             <img src="${imageUrl}" alt="${title}">
             <div class="news-content">

@@ -18,8 +18,8 @@ export default function decorate(block) {
   block.innerHTML = `
     <h2>Recent Articles</h2>
     ${articleData.map(({
-      imgSrc, imgAlt, title, url, description,
-    }) => `
+    imgSrc, imgAlt, title, url, description,
+  }) => `
       <div class="feed-card">
         <img src="${imgSrc}" alt="${imgAlt}">
         <h3><a href="${url}" style="color: black;">${title}</a></h3>
