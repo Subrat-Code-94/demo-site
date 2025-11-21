@@ -6,12 +6,14 @@ export default async function decorate(block) {
 
     const newsHTML = `
       <div class="news-grid">
-        ${newsItems.map(({ image_url, title, link, source_id, pubDate }) => `
+        ${newsItems.map(({
+          image_url: imageUrl, title, link, source_id: sourceId, pubDate,
+        }) => `
           <div class="news-card">
-            <img src="${image_url}" alt="${title}">
+            <img src="${imageUrl}" alt="${title}">
             <div class="news-content">
-              <a href="${link}" class="news-title">${title.length > 35 ? title.substring(0, 35) + '...' : title}</a>
-              <p class="news-source">${source_id}</p>
+              <a href="${link}" class="news-title">${title.length > 35 ? `${title.substring(0, 35)}...` : title}</a>
+              <p class="news-source">${sourceId}</p>
               <p class="news-date">${new Date(pubDate).toLocaleDateString()}</p>
             </div>
           </div>
@@ -21,6 +23,7 @@ export default async function decorate(block) {
 
     block.innerHTML = newsHTML;
   } catch (error) {
+    // eslint-disable-next-line no-console
     console.error('Error fetching news:', error);
     block.innerHTML = '<p>Unable to load news at the moment.</p>';
   }

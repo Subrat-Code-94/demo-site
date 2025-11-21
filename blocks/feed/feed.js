@@ -1,5 +1,3 @@
-import { createOptimizedPicture } from '../../scripts/aem.js';
-
 export default function decorate(block) {
   const articles = [...block.children].slice(1); // Skipping the first child which is the title
 
@@ -12,16 +10,20 @@ export default function decorate(block) {
     const url = titleLink.getAttribute('href');
     const description = article.querySelectorAll('p')[1].textContent;
 
-    return { imgSrc, imgAlt, title, url, description };
+    return {
+      imgSrc, imgAlt, title, url, description,
+    };
   });
 
   block.innerHTML = `
     <h2>Recent Articles</h2>
-    ${articleData.map(({ imgSrc, imgAlt, title, url, description }) => `
+    ${articleData.map(({
+      imgSrc, imgAlt, title, url, description,
+    }) => `
       <div class="feed-card">
         <img src="${imgSrc}" alt="${imgAlt}">
         <h3><a href="${url}" style="color: black;">${title}</a></h3>
-        <p>${description.length > 35 ? description.substring(0, 35) + '...' : description}</p>
+        <p>${description.length > 35 ? `${description.substring(0, 35)}...` : description}</p>
       </div>
     `).join('')}
   `;
