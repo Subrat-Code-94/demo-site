@@ -3,17 +3,19 @@ export default function decorate(block) {
 
   const articleData = articles.map((article) => {
     const picture = article.querySelector('picture');
-    const imgSrc = picture.querySelector('img').getAttribute('src');
-    const imgAlt = picture.querySelector('img').getAttribute('alt');
+    const img = picture?.querySelector('img');
+    const imgSrc = img?.getAttribute('src') || '';
+    const imgAlt = img?.getAttribute('alt') || '';
     const titleLink = article.querySelector('a');
-    const title = titleLink.textContent;
-    const url = titleLink.getAttribute('href');
-    const description = article.querySelectorAll('p')[1].textContent;
+    const title = titleLink?.textContent || '';
+    const url = titleLink?.getAttribute('href') || '#';
+    const paragraphs = article.querySelectorAll('p');
+    const description = paragraphs[1]?.textContent || '';
 
     return {
       imgSrc, imgAlt, title, url, description,
     };
-  });
+  }).filter((article) => article.title && article.imgSrc);
 
   block.innerHTML = `
     <h2>Recent Articles</h2>
