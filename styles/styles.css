@@ -20,16 +20,16 @@
   --gray: #696969;
   --gray-light: #EBEBEB;
   --gray-lighter: #F7F7F7;
-  --white: #ffffff;
+  --white: #fff;
   --yellow: #FFEA00;
   --blue: #0045FF;
   --pink: #FF0058;
   
   /* Feedback Block Colors */
-  --feedback-text: rgb(9, 9, 20);
-  --feedback-company: rgb(100, 116, 139);
-  --feedback-rating: rgb(37, 99, 235);
-  --feedback-shadow: rgba(0, 0, 0, 0.05);
+  --feedback-text: rgb(9 9 20);
+  --feedback-company: rgb(100 116 139);
+  --feedback-rating: rgb(37 99 235);
+  --feedback-shadow: rgb(0 0 0 / 5%);
 
   /* Spacing */
   --space-12: 12px;
@@ -44,8 +44,8 @@
   --link-hover-color: #FFEA00;
 
   /* Font Families */
-  --body-font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  --heading-font-family: "Asar", Georgia, "Times New Roman", Times, serif;
+  --body-font-family: "Source Sans Pro", "Helvetica Neue", helvetica, arial, sans-serif;
+  --heading-font-family: "Asar", georgia, "Times New Roman", times, serif;
 
   /* Font Sizes */
   --font-size-base: 18px;
@@ -113,19 +113,19 @@ button:hover, a.button:hover {
 }
 
 /* Responsive Grid */
-.aem-Grid {
+.aem-grid {
   display: flex;
   flex-wrap: wrap;
   margin: 0 auto;
   max-width: 1680px; /* Example max-width */
 }
 
-.aem-GridColumn {
+.aem-grid-column {
   padding: 0 14px; /* Example gutter-padding */
 }
 
-@media (max-width: 767px) {
-  .aem-Grid {
+@media (width <= 767px) {
+  .aem-grid {
     flex-direction: column;
   }
 }
@@ -145,7 +145,7 @@ main > .section > div {
   padding: 0 24px;
 }
 
-@media (min-width: 900px) {
+@media (width >= 900px) {
   main > .section > div {
     padding: 0 32px;
   }

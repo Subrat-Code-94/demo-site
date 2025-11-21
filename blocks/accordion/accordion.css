@@ -60,7 +60,7 @@
   transform: rotate(45deg);
 }
 
-@media (max-width: 768px) {
+@media (width <= 768px) {
   .accordion {
     padding: 16px;
   }

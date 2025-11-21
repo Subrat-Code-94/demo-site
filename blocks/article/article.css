@@ -25,19 +25,19 @@
 .article .article-content h3 {
   font-size: var(--font-size-h5);
   color: var(--text-color);
-  margin: 0 0 10px 0;
+  margin: 0 0 10px;
 }
 
 .article .article-content h2 {
   font-size: var(--font-size-h2);
   color: var(--text-color);
-  margin: 0 0 20px 0;
+  margin: 0 0 20px;
 }
 
 .article .article-content p {
   font-size: var(--font-size-base);
   color: var(--text-color);
-  margin: 0 0 20px 0;
+  margin: 0 0 20px;
 }
 
 .article .article-content .button {
@@ -51,26 +51,30 @@
   align-self: flex-start; /* Align the button to the left side */
 }
 
-@media (min-width: 900px) {
+@media (width >= 900px) {
   .article {
     flex-direction: row;
   }
+
   .article .article-card {
     flex-direction: row;
   }
+
   .article .article-content {
     width: 50%;
     padding: 40px;
   }
+
   .article .article-card img {
     width: 50%;
   }
 }
 
-@media (max-width: 600px) {
+@media (width <= 600px) {
   .article .article-card {
     flex-direction: column-reverse; /* Place text content first then image */
   }
+
   .article .article-content {
     padding: 15px;
   }

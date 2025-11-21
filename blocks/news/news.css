@@ -23,7 +23,7 @@
 }
 
 .news .news-card:hover { 
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  box-shadow: 0 4px 8px rgb(0 0 0 / 10%); 
 }
 
 .news .news-card img { 
@@ -50,22 +50,22 @@
 .news .news-source { 
   font-size: var(--font-size-h5); 
   color: var(--gray); 
-  margin: 8px 0 0 0; 
+  margin: 8px 0 0; 
 }
 
 .news .news-date { 
   font-size: var(--font-size-h6); 
   color: var(--gray); 
-  margin: 4px 0 0 0; 
+  margin: 4px 0 0; 
 }
 
-@media (max-width: 1024px) { 
+@media (width <= 1024px) { 
   .news .news-card { 
     width: calc(50% - 20px); 
   } 
 }
 
-@media (max-width: 768px) { 
+@media (width <= 768px) { 
   .news .news-card { 
     width: 100%; 
   } 

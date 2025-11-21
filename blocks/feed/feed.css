@@ -40,14 +40,14 @@
   color: var(--gray);
 }
 
-@media (max-width: 600px) {
+@media (width <= 600px) {
   .feed-card {
     width: 100%;
     margin-bottom: 16px;
   }
 }
 
-@media (min-width: 900px) {
+@media (width >= 900px) {
   .feed {
     padding: 0 24px; /* Slightly increased padding for larger screens */
   }
