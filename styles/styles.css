@@ -24,6 +24,19 @@
   --yellow: #FFEA00;
   --blue: #0045FF;
   --pink: #FF0058;
+  
+  /* Feedback Block Colors */
+  --feedback-text: rgb(9, 9, 20);
+  --feedback-company: rgb(100, 116, 139);
+  --feedback-rating: rgb(37, 99, 235);
+  --feedback-shadow: rgba(0, 0, 0, 0.05);
+
+  /* Spacing */
+  --space-12: 12px;
+  --space-16: 16px;
+  --space-24: 24px;
+  --space-32: 32px;
+  --space-48: 48px;
 
   /* Text and Link Colors */
   --text-color: #202020;
